@@ -6,6 +6,7 @@ A clientside mod using mixins to censor common phobia-triggering mobs, while sti
 
 Minecraft:
   - Spider
+  - Cave Spider
 
 ### Future Supported Mods
 
