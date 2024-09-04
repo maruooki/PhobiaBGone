@@ -12,6 +12,7 @@ Minecraft:
 
 - Scape and Run: Parasites
 - Lycanites Mobs
+- The Erebus
 - Feel free to suggest more!
 
 ### To Do
