@@ -8,14 +8,19 @@ Minecraft:
   - Spider
   - Cave Spider
 
-### Future Supported Mods
+### Future Supported Mods (1.12)
 
 - Scape and Run: Parasites
 - Lycanites Mobs
 - The Erebus
+- Twilight Forest
+- Atum 2
+- AoA
+- The Midnight
 - Feel free to suggest more!
 
 ### To Do
 - Make Config
 - Change Phobia Model
 - Add removal of sounds if possible?
+- Port to future versions?
