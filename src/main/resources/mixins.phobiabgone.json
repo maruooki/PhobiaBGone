@@ -1,0 +1,15 @@
+{
+  "package": "com.maruooki.phobiabgone.mixin",
+  "required": true,
+  "refmap": "mixins.phobiabgone.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [],
+  "client": [
+    "minecraft.ModelSpiderMixin",
+    "twilightForest.ModelTFSpiderMixin"
+  ]
+}

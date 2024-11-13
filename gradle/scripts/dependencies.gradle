@@ -60,6 +60,6 @@ dependencies {
     //     transitive = false
     // }
     // PhobiaBGone Below
-    implementation files('build/libs/SRParasites-1.12.2v1.9.21.jar')
     implementation rfg.deobf("curse.maven:lycanitesmobs-224770:4486512")
+    implementation rfg.deobf("curse.maven:the-twilight-forest-227639:3051450")
 }

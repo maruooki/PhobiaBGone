@@ -1,5 +1,6 @@
-package com.maruooki.phobiabgone.mixin.minecraft;
+package com.maruooki.phobiabgone.mixin.twilightForest;
 
+import com.maruooki.phobiabgone.mixin.minecraft.ModelSpiderMixin;
 import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.client.model.ModelSpider;
@@ -11,10 +12,11 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import twilightforest.client.model.entity.ModelTFSwarmSpider;
 
+@Mixin(ModelTFSwarmSpider.class)
 @SideOnly(Side.CLIENT)
-@Mixin(ModelSpider.class)
-public class ModelSpiderMixin {
+public class ModelTFSpiderMixin extends ModelSpider {
 
     @Unique
     private final ModelRenderer bb_main = new ModelRenderer((ModelSpider) (Object) this);

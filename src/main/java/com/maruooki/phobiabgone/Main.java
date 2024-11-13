@@ -1,10 +1,17 @@
 package com.maruooki.phobiabgone;
 
 import com.maruooki.phobiabgone.proxy.CommonProxy;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.IReloadableResourceManager;
+import net.minecraft.client.resources.IResourceManagerReloadListener;
+import net.minecraft.client.resources.IResourcePack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import zone.rong.mixinbooter.IEarlyMixinLoader;
@@ -43,6 +50,12 @@ public class Main implements ILateMixinLoader {
     @Mod.EventHandler
         public void onInit(FMLInitializationEvent event) {
         proxy.init(event);
+    }
+
+    @SideOnly(Side.CLIENT)
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+
     }
 
     @Override
