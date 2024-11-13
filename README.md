@@ -24,7 +24,6 @@ Minecraft:
 
 ### To Do
 - Make Config
-- Change Phobia Model
 - Change Sounds?
 - Add removal of sounds if possible?
 - Port to future versions?
