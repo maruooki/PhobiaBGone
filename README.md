@@ -7,9 +7,15 @@ Many people suffer from irrational phobias, some with more extreme cases than ot
 
 ### Features
 
-Minecraft:
+Minecraft
   - Spider
   - Cave Spider
+
+Project: Vibrant Journeys
+  - Small Spider
+
+Twilight Forest
+  - All spiders work, but textures currently broken
 
 ### Future Supported Mods (1.12)
 
