@@ -22,7 +22,6 @@ Twilight Forest
 - Scape and Run: Parasites
 - Lycanites Mobs
 - The Erebus
-- Twilight Forest
 - Atum 2
 - AoA
 - The Midnight
